@@ -15,6 +15,12 @@ This repository is to give some guidelines regarding documenting, naming and ord
 * Short description of what the algorithm does do (preferable with an image)
 * A link to the registry where the image is stored (e.g. https://docker-registry.distributedlearning.ai/d_summary)
 * It should contain the banner that it is part of the ppDLI
+
+|:warning: Privacy Preserving Distributed Learning (ppdDLI) |
+|------------------|
+| This algorithm is part of the [ppDLI](https://github.com/IKNL/ppDLI). A docker build of this algorithm can be obtained from docker-registry.distributedlearning.ai/droundrobintest |
+
+
 * It should contain a link to our webpage https://distributedlearning.ai
 * A reference to the documentation https://docs.distributedlearning.ai
 * It should mention the current status of the algorithm
