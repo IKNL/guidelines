@@ -1,12 +1,12 @@
 # Guidelines
-This repository is to give some guidelines regarding documenting, naming and ordering conventions for ppDLI repositories and releases.
+This repository is to give some guidelines regarding documenting, naming and version conventions for IKNL repositories and releases.
 
 ## 1. Repositories
 
 * Repository names should be snake_case (underscores between words) and consist only off small letters
 * In case of an algorithm it should start with a "d" (e.g. d_summary)
 * Should always contain a `readme.md` (see section bellow)
-* Preferable Algorithm regpositories start from the boilerplate (link)[link]
+* Preferable Algorithm repositories start from the boilerplate (link)[link]
 
 ## 2. Readme 
 
@@ -39,7 +39,7 @@ This repository is to give some guidelines regarding documenting, naming and ord
 * It should contain the banner that it is part of the ppDLI
 * It should contain a link to our webpage https://distributedlearning.ai
 
-## 3. Docker Registry
+## 3. Docker Registry (only for ppDLI and Algorithms)
 
 * The image name should be identical to the repository name
 * Algorithms are seperated in development stage / (e.g. https://docker-registry.distributedlearning.ai/prod/d_summary)
