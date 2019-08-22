@@ -17,7 +17,7 @@ This repository is to give some guidelines regarding documenting, naming and ver
 * A link to the registry where the image is stored (e.g. https://docker-registry.distributedlearning.ai/d_summary)
 * It should contain the banner that it is part of the ppDLI
 
-|:warning: Privacy Preserving Distributed Learning (ppdDLI) |
+|:warning: Privacy Preserving Distributed Learning (ppDLI) |
 |------------------|
 | This algorithm is part of the [ppDLI](https://github.com/IKNL/ppDLI). A docker build of this algorithm can be obtained from __docker-registry.distributedlearning.ai/d_summary__ |
 
