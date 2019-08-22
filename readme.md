@@ -5,12 +5,12 @@ This repository is to give some guidelines regarding documenting, naming and ord
 
 * Repository names should be snake_case (underscores between words) and consist only off small letters
 * In case of an algorithm it should start with a "d" (e.g. d_summary)
-* Should always contain a read me (see section bellow)
+* Should always contain a `readme.md` (see section bellow)
 * Preferable Algorithm regpositories start from the boilerplate (link)[link]
 
 ## 2. Readme 
 
-### 2.1 Algorithm ReadMe
+### 2.1 Distributed Learning Algorithm
 
 * Short description of what the algorithm does do (preferable with an image)
 * A link to the registry where the image is stored (e.g. https://docker-registry.distributedlearning.ai/d_summary)
@@ -18,7 +18,7 @@ This repository is to give some guidelines regarding documenting, naming and ord
 
 |:warning: Privacy Preserving Distributed Learning (ppdDLI) |
 |------------------|
-| This algorithm is part of the [ppDLI](https://github.com/IKNL/ppDLI). A docker build of this algorithm can be obtained from docker-registry.distributedlearning.ai/droundrobintest |
+| This algorithm is part of the [ppDLI](https://github.com/IKNL/ppDLI). A docker build of this algorithm can be obtained from __docker-registry.distributedlearning.ai/d_summary__ |
 
 
 * It should contain a link to our webpage https://distributedlearning.ai
@@ -31,7 +31,10 @@ This repository is to give some guidelines regarding documenting, naming and ord
     * Beta
     * Prod
 
-### 2.2 Other ReadMe
+### 2.2 Other Algorithms
+...
+
+### 2.3 Other ReadMe
 
 * It should contain the banner that it is part of the ppDLI
 * It should contain a link to our webpage https://distributedlearning.ai
@@ -48,7 +51,7 @@ This repository is to give some guidelines regarding documenting, naming and ord
 ## 4. Versioning
 
 * We follow the PEP 440 (link)[https://www.python.org/dev/peps/pep-0440/]
-* breaking.major.minor.label. Labels could be .postN, which indicates that is a post release, or .devN, that indicates that this is a development version (pre-release)
+* breaking.major.minor\[.label\] Labels could be .postN, which indicates that is a post release, or .devN, that indicates that this is a development version (pre-release)
 * The latest release should always consist of the code at the master branch
 * We use the github-releases 
 * In case it is release on pipy, it should maintain the same version number
