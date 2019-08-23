@@ -45,7 +45,7 @@ This repository is to give some guidelines regarding documenting, naming and ver
 * The image name should be identical to the repository name
 * Algorithms are seperated in development stage / (e.g. https://docker-registry.distributedlearning.ai/prod/d_summary)
     * alpha (only for internal use)
-    * beta (use with caughtion)
+    * beta (use with caution)
     * prod (battle tested)
 * Infrastructure images go in the folder /infrastructure (e.g. https://docker-registry.distributedlearning.ai/infrastructre/node)
 
