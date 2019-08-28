@@ -1,3 +1,5 @@
+<img src="https://iknl.nl/images/default-source/images/.png?sfvrsn=3" align="right">
+
 # Guidelines
 This repository is to give some guidelines regarding documenting, naming and version conventions for IKNL repositories and releases.
 
@@ -10,7 +12,7 @@ This repository is to give some guidelines regarding documenting, naming and ver
 * Preferable Algorithm repositories start from the boilerplate (link)[link]
 
 ## 2. Readme 
-* Each project's readme.md should have IKNL's logo. This can be done with the line:
+* Each project's readme.md should have IKNL's logo (just like in this one). This can be done with the line:
 
 `<img src="https://iknl.nl/images/default-source/images/.png?sfvrsn=3" align="right">`
 
