@@ -56,7 +56,7 @@ This repository is to give some guidelines regarding documenting, naming and ver
 
 ## 4. Versioning
 
-* We follow the PEP 440 (link)[https://www.python.org/dev/peps/pep-0440/]
+* We follow the [PEP 440](https://www.python.org/dev/peps/pep-0440/)
 * breaking.major.minor\[.label\] Labels could be .postN, which indicates that is a post release, or .devN, that indicates that this is a development version (pre-release)
 * The latest release should always consist of the code at the master branch
 * We use the github-releases 
