@@ -1,4 +1,4 @@
-<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=250 align="right">
+<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=200 align="right">
 
 # Guidelines
 This repository is to give some guidelines regarding documenting, naming, and version conventions for IKNL repositories and releases.
@@ -15,7 +15,7 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 [READMEs are important](https://www.makeareadme.com/). Therefore, each repository should have one and comply with the following guidelines.
 * Each project's README.md should have IKNL's logo (just like this one). Just make the following the first line of your README:
 
-`<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=250 align="right">`
+`<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=200 align="right">`
 
 ### 2.1 Federated Learning Algorithm
 The README should include:
