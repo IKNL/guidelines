@@ -9,7 +9,7 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 * In case of a federated learning algorithm, it should start with a "d" (e.g. d_summary)
 * In case it is an demo algorithm, please add the `_test` suffix
 * Should always contain a `readme.md` (see section bellow)
-* Preferable Algorithm repositories start from the boilerplate (link)[link]
+* Preferable Algorithm repositories start from the [boilerplate](https://github.com/IKNL/d_boilerplate)
 
 ## 2. Readme
 [READMEs are important](https://www.makeareadme.com/). Therefore, each repository should have one and comply with the following guidelines.
@@ -21,14 +21,14 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 The README should include:
 * A short description of what the algorithm does do (preferable with an image)
 * A link to the registry where the image is stored (e.g., https://docker-registry.distributedlearning.ai/d_summary)
-* The banner that indicates that it is part of VANTAGE:
+* The banner that indicates that it is part of VANTAGE6:
 
-|:warning: priVAcy preserviNg federaTed leArninG infrastructurE (VANTAGE) |
+|:warning: priVAcy preserviNg federaTed leArninG infrastructurE for Secure Insight eXchange (VANTAGE6) |
 |------------------|
-| This algorithm is part of [VANTAGE](https://github.com/IKNL/vantage). A docker build of this algorithm can be obtained from __docker-registry.distributedlearning.ai/d_summary__ |
+| This algorithm is part of [VANTAGE6](https://github.com/IKNL/VANTAGE6). A docker build of this algorithm can be obtained from __docker-registry.distributedlearning.ai/d_summary__ |
 
 
-* A link to our webpage https://distributedlearning.ai
+* A link to our webpage https://vantage6.ai
 * A reference to the documentation https://docs.distributedlearning.ai
 * The current status of the algorithm
 * An explanation of how to test the image locally
@@ -43,10 +43,10 @@ The README should include:
 
 ### 2.3 Other READMEs
 <!---
-* It should contain the banner that it is part of VANTAGE
+* It should contain the banner that it is part of VANTAGE6
 * It should contain a link to our webpage https://distributedlearning.ai
 -->
-## 3. Docker Registry (only for VANTAGE and Algorithms)
+## 3. Docker Registry (only for VANTAGE6 and Algorithms)
 
 * The image name should be identical to the repository name
 * Algorithms are separated in development stage / (e.g., https://docker-registry.distributedlearning.ai/prod/d_summary)
