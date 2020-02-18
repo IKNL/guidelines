@@ -8,7 +8,7 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 * Repository names should be `snake_case` (underscores between words) and consist only of small letters
 * In case of a federated learning algorithm, it should start with a "d" (e.g. d_summary)
 * In case it is an demo algorithm, please add the `_test` suffix
-* Should always contain a `readme.md` (see section bellow)
+* Should always contain a `README.md` (see section bellow)
 * Preferable Algorithm repositories start from the [boilerplate](https://github.com/IKNL/d_boilerplate)
 
 ## 2. Readme
@@ -18,7 +18,9 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 
 ### 2.1 Federated Learning Algorithm
 * VANTAGE6's logo. Just make the following the first line of your README:
+
 `<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/vantage6.png?raw=true" width=200 align="right">`
+
 * The banner that indicates that it is part of VANTAGE6:
 
 |:warning: priVAcy preserviNg federaTed leArninG infrastructurE for Secure Insight eXchange (VANTAGE6) |
@@ -39,6 +41,7 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 
 ### 2.2 Other Algorithms
 * IKNL's logo (just like this one). Just make the following the first line of your README:
+
 `<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/iknl_nl.png?raw=true" width=200 align="right">`
 
 
