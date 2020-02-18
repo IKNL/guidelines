@@ -1,4 +1,4 @@
-<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=200 align="right">
+<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/iknl_nl.png?raw=true" width=200 align="right">
 
 # Guidelines
 This repository is to give some guidelines regarding documenting, naming, and version conventions for IKNL repositories and releases.
@@ -12,24 +12,23 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 * Preferable Algorithm repositories start from the [boilerplate](https://github.com/IKNL/d_boilerplate)
 
 ## 2. Readme
-[READMEs are important](https://www.makeareadme.com/). Therefore, each repository should have one and comply with the following guidelines.
-* Each project's README.md should have IKNL's logo (just like this one). Just make the following the first line of your README:
+[READMEs are important](https://www.makeareadme.com/). Therefore, each repository should have one and include:
+* A short description of what the algorithm does do (preferable with an image)
 
-`<img src="https://github.com/IKNL/guidelines/blob/master/resources/logo.png?raw=true" width=200 align="right">`
 
 ### 2.1 Federated Learning Algorithm
-The README should include:
-* A short description of what the algorithm does do (preferable with an image)
-* A link to the registry where the image is stored (e.g., https://docker-registry.distributedlearning.ai/d_summary)
+* VANTAGE6's logo. Just make the following the first line of your README:
+`<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/vantage6.png?raw=true" width=200 align="right">`
 * The banner that indicates that it is part of VANTAGE6:
 
 |:warning: priVAcy preserviNg federaTed leArninG infrastructurE for Secure Insight eXchange (VANTAGE6) |
 |------------------|
 | This algorithm is part of [VANTAGE6](https://github.com/IKNL/VANTAGE6). A docker build of this algorithm can be obtained from __docker-registry.distributedlearning.ai/d_summary__ |
 
-
-* A link to our webpage https://vantage6.ai
+* A link to the registry where the image is stored (e.g., https://docker-registry.distributedlearning.ai/d_summary)
+* A reference to VANTAGE6's technical paper (WIP)
 * A reference to the documentation https://docs.distributedlearning.ai
+* A link to our webpage https://vantage6.ai
 * The current status of the algorithm
 * An explanation of how to test the image locally
 * The current status of the algorithm
@@ -39,7 +38,9 @@ The README should include:
     * Prod
 
 ### 2.2 Other Algorithms
-...
+* IKNL's logo (just like this one). Just make the following the first line of your README:
+`<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/iknl_nl.png?raw=true" width=200 align="right">`
+
 
 ### 2.3 Other READMEs
 <!---
