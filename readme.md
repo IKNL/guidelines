@@ -21,6 +21,12 @@ This repository is to give some guidelines regarding documenting, naming, and ve
 
 `<img src="https://github.com/IKNL/guidelines/blob/master/resources/logos/vantage6.png?raw=true" width=200 align="right">`
 
+* In the README, use the following text as an introduction to the description of the repository:
+
+> Federated learning (FL, also known as distributed learning) algorithms try to learn a global model using data from different sources without data ever leaving their original location. Furthermore, no raw (patient) sensitive data are shared between any of the parties. In other words, instead of bringing the data to the algorithms, we bring the algorithms to the data.
+> 
+> In this repository, we provide a FL implementation of...
+
 * The banner that indicates that it is part of VANTAGE6:
 
 |:warning: priVAcy preserviNg federaTed leArninG infrastructurE for Secure Insight eXchange (VANTAGE6) |
